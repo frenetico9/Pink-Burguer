@@ -18,7 +18,7 @@ const MenuListItem: React.FC<MenuListItemProps> = ({ item, onSelectItem, style }
       <img 
         src={item.imageUrl}
         alt={item.name}
-        className="w-full md:w-32 h-32 md:h-auto object-cover rounded-md flex-shrink-0"
+        className="w-32 h-32 object-cover rounded-md flex-shrink-0"
       />
 
       <div className="flex-grow w-full">
